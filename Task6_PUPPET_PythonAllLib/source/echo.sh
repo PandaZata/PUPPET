@@ -1,0 +1,1 @@
+echo 'export PATH="/home/ubuntu/.local/bin:$PATH"' >> .bashrc
