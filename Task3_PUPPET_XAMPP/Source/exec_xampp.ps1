@@ -1,0 +1,1 @@
+Start-Process -Wait -ArgumentList '--prefix C:\xampp','--mode unattended' -passthru -FilePath "C:\xampp-windows-x64-8.1.5-0-VS16-installer.exe"

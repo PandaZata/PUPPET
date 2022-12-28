@@ -1,0 +1,4 @@
+New-NetFirewallRule -DisplayName "Apache HTTP Server" -Direction Inbound -Action Allow -EdgeTraversalPolicy Allow -Protocol TCP -Profile Public -Program "C:\xampp\apache\bin\httpd.exe"
+New-NetFirewallRule -DisplayName "Apache HTTP Server" -Direction Inbound -Action Allow -EdgeTraversalPolicy Allow -Protocol UDP -Profile Public -Program "C:\xampp\apache\bin\httpd.exe"
+New-NetFirewallRule -DisplayName "mysqld" -Direction Inbound -Action Allow -EdgeTraversalPolicy Allow -Protocol TCP -Profile Public -Program "C:\xampp\mysql\bin\mysqld.exe"
+New-NetFirewallRule -DisplayName "mysqld" -Direction Inbound -Action Allow -EdgeTraversalPolicy Allow -Protocol UDP -Profile Public -Program "C:\xampp\mysql\bin\mysqld.exe"
